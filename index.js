@@ -5,8 +5,8 @@ const app = express()
 app.get('/', (req, res) => {
   res.json([
     {
-      name: 'Alice',
-      age: 30
+      name: 'Aaalice',
+      age: 311
     },
     {
       name: 'John',
@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
     {
       name: 'Jacob',
       age: 40
+    },
+    {
+      name: 'Addition',
+      age: 10
     }
   ])
 })
