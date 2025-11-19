@@ -19,6 +19,10 @@ app.get('/', (req, res) => {
     {
       name: 'Addition',
       age: 10
+    },
+    {
+      name: 'Sub',
+      age: 20
     }
   ])
 })
